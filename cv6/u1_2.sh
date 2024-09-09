@@ -1,0 +1,3 @@
+gr=$(groups)
+
+echo $gr

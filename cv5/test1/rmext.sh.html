@@ -1,0 +1,5 @@
+for i in $( ls *.html ); do
+	mv $i ${i%.*};
+done
+
+echo "Done"
